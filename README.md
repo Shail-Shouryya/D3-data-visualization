@@ -4,7 +4,7 @@
 
 ## Background
 
-Welcome to the newsroom! In this project, we will be tasked with analyzing the current trends shaping people's lives, as well as creating charts, graphs, and interactive elements for a major metro paper to help readers understand our findings.
+Welcome to the newsroom! In this project, we will be analyzing the current trends shaping people's lives, as well as creating charts, graphs, and interactive elements for a major metro paper to help readers understand our findings.
 
 The editor wants us to run a series of feature stories about the health risks facing particular demographics. She's counting on us to sniff out the first story idea by sifting through information from the U.S. Census Bureau and the Behavioral Risk Factor Surveillance System.
 
@@ -18,13 +18,13 @@ The data set we'll use is based on 2014 ACS 1-year estimates: [https://factfinde
 
 We need to create a scatter plot between two of the data variables such as `Healthcare vs. Poverty` or `Smokers vs. Age`.
 
-Using the D3 techniques we taught you in class, create a scatter plot that represents each state with circle elements. We'll code this graphic in the `app.js` file of your homework directory—make sure you pull in the data from `data.csv` by using the `d3.csv` function. Our scatter plot should ultimately appear like the image at the top of this section.
+Using D3 techniques, create a scatter plot that represents each state with circle elements. We'll code this graphic in the `app.js` file of our directory—making sure to pull in the data from `data.csv` using the `d3.csv` function. Our scatter plot should ultimately appear like the image at the top of this section.
 
 * Include state abbreviations in the circles.
 
-* Create and situate your axes and labels to the left and bottom of the chart.
+* Create and situate our axes and labels to the left and bottom of the chart.
 
-* Note: We'll need to use `python -m http.server` to run the visualization. This will host the page at `localhost:8000` in your web browser.
+* Note: We'll need to use <strong>`python -m http.server`</strong> to run the visualization. This will host the page at `localhost:8000` in our web browser.
 
 - - -
 
@@ -36,9 +36,9 @@ Why make a static graphic when D3 lets us interact with our data?
 
 #### 1. More Data, More Dynamics
 
-We're going to include more demographics and more risk factors. Place additional labels in your scatter plot and give them click events so that your users can decide which data to display. Animate the transitions for your circles' locations as well as the range of your axes. Do this for two risk factors for each axis. Or, for an extreme challenge, create three for each axis.
+We're going to include more demographics and more risk factors, placing additional labels in our scatter plot and giving them click events so that our users can decide which data to display and animating the transitions for our circles' locations as well as the range of our axes. Try this for two risk factors for each axis, or, for an extreme challenge, create three for each axis.
 
-* Hint: Try binding all of the CSV data to your circles. This will let you easily determine their x or y values when you click the labels.
+* Hint: Try binding all of the CSV data to the circles. This will allow easy determination of their x or y values by clicking the labels.
 
 #### 2. Incorporate d3-tip
 
@@ -46,7 +46,7 @@ While the ticks on the axes allow us to infer approximate values for each circle
 
 ![8-tooltip](Images/8-tooltip.gif)
 
-* Check out [David Gotz's example](https://bl.ocks.org/davegotz/bd54b56723c154d25eedde6504d30ad7) to see how you should implement tooltips with d3-tip.
+* Check out [David Gotz's example](https://bl.ocks.org/davegotz/bd54b56723c154d25eedde6504d30ad7) to see how to implement tooltips with d3-tip.
 
 - - -
 
